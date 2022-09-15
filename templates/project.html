@@ -36,7 +36,7 @@
 </div>
 <div id="project-page-details" class="row">
     <div class="col-lg-4">
-        <img src="../static/images/project-{{project['id']}}.png" alt="no-image">
+        <img src="../static/images/project-{{project['id']}}{{'.png' if project['id'] == 1 else '.PNG'}}" alt="no-image">
     </div>
     <div class="col-lg-8">
         <h3>{{project['title']}}</h3>
