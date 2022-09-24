@@ -225,7 +225,7 @@ body{
 }
 
 #contact a{
-    color: #000;
+    color: #212529;
     text-decoration: none;
 }
 
@@ -262,7 +262,7 @@ body{
 }
 
 #project-page-details img{
-    width: 60vh;
+    width: 100%;
     height: 60vh;
     padding: 3% 5%;
 }

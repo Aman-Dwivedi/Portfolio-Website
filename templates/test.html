@@ -78,7 +78,9 @@
 <!-- About Me -->
 <section id="about">
     <h2>ABOUT ME</h2>
-    <p>I am a junior studying at the University of Arizona and majoring in Computer Science.</p>
+    <p>I am a junior studying at the University of Arizona and majoring in Computer Science. Currently I am looking for an internship.
+        Outside of class you can find me playing FIFA or hanging out with friends.
+    </p>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4">
@@ -91,7 +93,7 @@
                             <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong>
                                 <span>Aman Dwivedi</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                <span>www.amandwivedi.com</span></li>
+                                <span>www.amandwivedi.herokuapp.com</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong>
                                 <span>+1 520 910 8976</span></li>
                             <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Tucson, USA</span></li>
@@ -162,7 +164,6 @@
                 <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                     <h4>Aman Dwivedi</h4>
-                    <p><em>...</em></p>
                     <p>
                     <ul>
                         <li>550 N 5th Avenue, Tuscon, AZ</li>
@@ -234,7 +235,7 @@
                 visit my <a href="https://github.com/Aman-Dwivedi">Github page</a>.</strong>
         </div>
         <div class="row">
-            <div class="project-block col-lg-4 ml-auto">
+            <div class="project-block col-lg-6 ml-auto">
                 <a href="{{ url_for('display_project', id=1) }}">
                     <img class="project-img" src="../static/images/digit.png" alt="image"/>
                 </a>
@@ -242,7 +243,7 @@
                     Hand Written Digit Recognition
                 </div>
             </div>
-            <div class="project-block col-lg-4  ml-auto">
+            <div class="project-block col-lg-6  ml-auto">
                 <a href="{{ url_for('display_project', id=2) }}">
                     <img class="project-img" src="../static/images/stock.jpg" alt="image"/>
                 </a>
@@ -250,12 +251,20 @@
                     Stock Update
                 </div>
             </div>
-            <div class="project-block col-lg-4 ml-auto">
+            <div class="project-block col-lg-6 ml-auto">
                 <a href="{{ url_for('display_project', id=3) }}">
                     <img class="project-img" src="../static/images/spotify.png" alt="image"/>
                 </a>
                 <div class="project-description">
                     Spotify Playlist Creator
+                </div>
+            </div>
+            <div class="project-block col-lg-6 ml-auto">
+                <a href="{{ url_for('display_project', id=4) }}">
+                    <img class="project-img" src="../static/images/concentration.png" alt="image"/>
+                </a>
+                <div class="project-description">
+                    Concentration Game
                 </div>
             </div>
         </div>
@@ -277,15 +286,18 @@
                 <div class="connect">adwivedi@arizona.edu</div>
             </div>
             <div class="contact-box col-lg-4">
-                <i class="fa-brands fa-linkedin-in fa-4x"></i>
-                <h4>Lets Connect</h4>
-                <div class="connect"><a href="https://www.linkedin.com/in/aman-dwivedi-5438471b4/">LinkedIn Profile</a>
-                </div>
+                <a href="https://www.linkedin.com/in/aman-dwivedi-5438471b4/">
+                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                    <h4>Lets Connect</h4>
+                    <div class="connect">LinkedIn Profile</div>
+                </a>
             </div>
             <div class="contact-box col-lg-4">
-                <i class="fa-brands fa-square-instagram fa-4x"></i>
-                <h4>Instagram</h4>
-                <div class="connect"><a href="https://www.instagram.com/_aman_dwivedi/">Instagram Profile</a></div>
+                <a href="https://www.instagram.com/_aman_dwivedi/">
+                    <i class="fa-brands fa-square-instagram fa-4x"></i>
+                    <h4>Instagram</h4>
+                    <div class="connect">Instagram Profile</div>
+                </a>
             </div>
         </div>
     </div>
